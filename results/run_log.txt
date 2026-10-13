@@ -1,0 +1,255 @@
+{"python": "3.12.3", "platform": "Linux-6.18.44-fc-v114-x86_64-with-glibc2.39", "numpy": "2.4.4", "pandas": "3.0.2", "scikit-learn": "1.8.0", "xgboost": "3.4.1", "imbalanced-learn": "0.14.2", "shap": "0.53.0", "lime": "0.2.0.1", "statsmodels": "0.15.0", "seed": 42}
+leakage audit Original predictor set (incl. copd, FEV1PRED): acc=0.990
+leakage audit FEV1PRED only: acc=0.866
+leakage audit Spirometry only (FEV1, FEV1PRED, FVC, FVCPRED): acc=0.873
+[CLS-SMOTE] fold 1/50 done
+[CLS-SMOTE] fold 2/50 done
+[CLS-SMOTE] fold 3/50 done
+[CLS-SMOTE] fold 4/50 done
+[CLS-SMOTE] fold 5/50 done
+[CLS-SMOTE] fold 6/50 done
+[CLS-SMOTE] fold 7/50 done
+[CLS-SMOTE] fold 8/50 done
+[CLS-SMOTE] fold 9/50 done
+[CLS-SMOTE] fold 10/50 done
+[CLS-SMOTE] fold 11/50 done
+[CLS-SMOTE] fold 12/50 done
+[CLS-SMOTE] fold 13/50 done
+[CLS-SMOTE] fold 14/50 done
+[CLS-SMOTE] fold 15/50 done
+[CLS-SMOTE] fold 16/50 done
+[CLS-SMOTE] fold 17/50 done
+[CLS-SMOTE] fold 18/50 done
+[CLS-SMOTE] fold 19/50 done
+[CLS-SMOTE] fold 20/50 done
+[CLS-SMOTE] fold 21/50 done
+[CLS-SMOTE] fold 22/50 done
+[CLS-SMOTE] fold 23/50 done
+[CLS-SMOTE] fold 24/50 done
+[CLS-SMOTE] fold 25/50 done
+[CLS-SMOTE] fold 26/50 done
+[CLS-SMOTE] fold 27/50 done
+[CLS-SMOTE] fold 28/50 done
+[CLS-SMOTE] fold 29/50 done
+[CLS-SMOTE] fold 30/50 done
+[CLS-SMOTE] fold 31/50 done
+[CLS-SMOTE] fold 32/50 done
+[CLS-SMOTE] fold 33/50 done
+[CLS-SMOTE] fold 34/50 done
+[CLS-SMOTE] fold 35/50 done
+[CLS-SMOTE] fold 36/50 done
+[CLS-SMOTE] fold 37/50 done
+[CLS-SMOTE] fold 38/50 done
+[CLS-SMOTE] fold 39/50 done
+[CLS-SMOTE] fold 40/50 done
+[CLS-SMOTE] fold 41/50 done
+[CLS-SMOTE] fold 42/50 done
+[CLS-SMOTE] fold 43/50 done
+[CLS-SMOTE] fold 44/50 done
+[CLS-SMOTE] fold 45/50 done
+[CLS-SMOTE] fold 46/50 done
+[CLS-SMOTE] fold 47/50 done
+[CLS-SMOTE] fold 48/50 done
+[CLS-SMOTE] fold 49/50 done
+[CLS-SMOTE] fold 50/50 done
+[CLS-noSMOTE] fold 1/50 done
+[CLS-noSMOTE] fold 2/50 done
+[CLS-noSMOTE] fold 3/50 done
+[CLS-noSMOTE] fold 4/50 done
+[CLS-noSMOTE] fold 5/50 done
+[CLS-noSMOTE] fold 6/50 done
+[CLS-noSMOTE] fold 7/50 done
+[CLS-noSMOTE] fold 8/50 done
+[CLS-noSMOTE] fold 9/50 done
+[CLS-noSMOTE] fold 10/50 done
+[CLS-noSMOTE] fold 11/50 done
+[CLS-noSMOTE] fold 12/50 done
+[CLS-noSMOTE] fold 13/50 done
+[CLS-noSMOTE] fold 14/50 done
+[CLS-noSMOTE] fold 15/50 done
+[CLS-noSMOTE] fold 16/50 done
+[CLS-noSMOTE] fold 17/50 done
+[CLS-noSMOTE] fold 18/50 done
+[CLS-noSMOTE] fold 19/50 done
+[CLS-noSMOTE] fold 20/50 done
+[CLS-noSMOTE] fold 21/50 done
+[CLS-noSMOTE] fold 22/50 done
+[CLS-noSMOTE] fold 23/50 done
+[CLS-noSMOTE] fold 24/50 done
+[CLS-noSMOTE] fold 25/50 done
+[CLS-noSMOTE] fold 26/50 done
+[CLS-noSMOTE] fold 27/50 done
+[CLS-noSMOTE] fold 28/50 done
+[CLS-noSMOTE] fold 29/50 done
+[CLS-noSMOTE] fold 30/50 done
+[CLS-noSMOTE] fold 31/50 done
+[CLS-noSMOTE] fold 32/50 done
+[CLS-noSMOTE] fold 33/50 done
+[CLS-noSMOTE] fold 34/50 done
+[CLS-noSMOTE] fold 35/50 done
+[CLS-noSMOTE] fold 36/50 done
+[CLS-noSMOTE] fold 37/50 done
+[CLS-noSMOTE] fold 38/50 done
+[CLS-noSMOTE] fold 39/50 done
+[CLS-noSMOTE] fold 40/50 done
+[CLS-noSMOTE] fold 41/50 done
+[CLS-noSMOTE] fold 42/50 done
+[CLS-noSMOTE] fold 43/50 done
+[CLS-noSMOTE] fold 44/50 done
+[CLS-noSMOTE] fold 45/50 done
+[CLS-noSMOTE] fold 46/50 done
+[CLS-noSMOTE] fold 47/50 done
+[CLS-noSMOTE] fold 48/50 done
+[CLS-noSMOTE] fold 49/50 done
+[CLS-noSMOTE] fold 50/50 done
+[REG] fold 1/50 done
+[REG] fold 2/50 done
+[REG] fold 3/50 done
+[REG] fold 4/50 done
+[REG] fold 5/50 done
+[REG] fold 6/50 done
+[REG] fold 7/50 done
+[REG] fold 8/50 done
+[REG] fold 9/50 done
+[REG] fold 10/50 done
+[REG] fold 11/50 done
+[REG] fold 12/50 done
+[REG] fold 13/50 done
+[REG] fold 14/50 done
+[REG] fold 15/50 done
+[REG] fold 16/50 done
+[REG] fold 17/50 done
+[REG] fold 18/50 done
+[REG] fold 19/50 done
+[REG] fold 20/50 done
+[REG] fold 21/50 done
+[REG] fold 22/50 done
+[REG] fold 23/50 done
+[REG] fold 24/50 done
+[REG] fold 25/50 done
+[REG] fold 26/50 done
+[REG] fold 27/50 done
+[REG] fold 28/50 done
+[REG] fold 29/50 done
+[REG] fold 30/50 done
+[REG] fold 31/50 done
+[REG] fold 32/50 done
+[REG] fold 33/50 done
+[REG] fold 34/50 done
+[REG] fold 35/50 done
+[REG] fold 36/50 done
+[REG] fold 37/50 done
+[REG] fold 38/50 done
+[REG] fold 39/50 done
+[REG] fold 40/50 done
+[REG] fold 41/50 done
+[REG] fold 42/50 done
+[REG] fold 43/50 done
+[REG] fold 44/50 done
+[REG] fold 45/50 done
+[REG] fold 46/50 done
+[REG] fold 47/50 done
+[REG] fold 48/50 done
+[REG] fold 49/50 done
+[REG] fold 50/50 done
+[XAI-cls] fold 1/50
+[XAI-cls] fold 2/50
+[XAI-cls] fold 3/50
+[XAI-cls] fold 4/50
+[XAI-cls] fold 5/50
+[XAI-cls] fold 6/50
+[XAI-cls] fold 7/50
+[XAI-cls] fold 8/50
+[XAI-cls] fold 9/50
+[XAI-cls] fold 10/50
+[XAI-cls] fold 11/50
+[XAI-cls] fold 12/50
+[XAI-cls] fold 13/50
+[XAI-cls] fold 14/50
+[XAI-cls] fold 15/50
+[XAI-cls] fold 16/50
+[XAI-cls] fold 17/50
+[XAI-cls] fold 18/50
+[XAI-cls] fold 19/50
+[XAI-cls] fold 20/50
+[XAI-cls] fold 21/50
+[XAI-cls] fold 22/50
+[XAI-cls] fold 23/50
+[XAI-cls] fold 24/50
+[XAI-cls] fold 25/50
+[XAI-cls] fold 26/50
+[XAI-cls] fold 27/50
+[XAI-cls] fold 28/50
+[XAI-cls] fold 29/50
+[XAI-cls] fold 30/50
+[XAI-cls] fold 31/50
+[XAI-cls] fold 32/50
+[XAI-cls] fold 33/50
+[XAI-cls] fold 34/50
+[XAI-cls] fold 35/50
+[XAI-cls] fold 36/50
+[XAI-cls] fold 37/50
+[XAI-cls] fold 38/50
+[XAI-cls] fold 39/50
+[XAI-cls] fold 40/50
+[XAI-cls] fold 41/50
+[XAI-cls] fold 42/50
+[XAI-cls] fold 43/50
+[XAI-cls] fold 44/50
+[XAI-cls] fold 45/50
+[XAI-cls] fold 46/50
+[XAI-cls] fold 47/50
+[XAI-cls] fold 48/50
+[XAI-cls] fold 49/50
+[XAI-cls] fold 50/50
+[XAI-reg] fold 1/50
+[XAI-reg] fold 2/50
+[XAI-reg] fold 3/50
+[XAI-reg] fold 4/50
+[XAI-reg] fold 5/50
+[XAI-reg] fold 6/50
+[XAI-reg] fold 7/50
+[XAI-reg] fold 8/50
+[XAI-reg] fold 9/50
+[XAI-reg] fold 10/50
+[XAI-reg] fold 11/50
+[XAI-reg] fold 12/50
+[XAI-reg] fold 13/50
+[XAI-reg] fold 14/50
+[XAI-reg] fold 15/50
+[XAI-reg] fold 16/50
+[XAI-reg] fold 17/50
+[XAI-reg] fold 18/50
+[XAI-reg] fold 19/50
+[XAI-reg] fold 20/50
+[XAI-reg] fold 21/50
+[XAI-reg] fold 22/50
+[XAI-reg] fold 23/50
+[XAI-reg] fold 24/50
+[XAI-reg] fold 25/50
+[XAI-reg] fold 26/50
+[XAI-reg] fold 27/50
+[XAI-reg] fold 28/50
+[XAI-reg] fold 29/50
+[XAI-reg] fold 30/50
+[XAI-reg] fold 31/50
+[XAI-reg] fold 32/50
+[XAI-reg] fold 33/50
+[XAI-reg] fold 34/50
+[XAI-reg] fold 35/50
+[XAI-reg] fold 36/50
+[XAI-reg] fold 37/50
+[XAI-reg] fold 38/50
+[XAI-reg] fold 39/50
+[XAI-reg] fold 40/50
+[XAI-reg] fold 41/50
+[XAI-reg] fold 42/50
+[XAI-reg] fold 43/50
+[XAI-reg] fold 44/50
+[XAI-reg] fold 45/50
+[XAI-reg] fold 46/50
+[XAI-reg] fold 47/50
+[XAI-reg] fold 48/50
+[XAI-reg] fold 49/50
+[XAI-reg] fold 50/50
+DONE

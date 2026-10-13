@@ -1,0 +1,8 @@
+,0
+classification_target,COPDSEVERITY (4 ordinal GOLD grades)
+classification_predictors,"AGE, gender, PackHistory, smoking, MWT1Best, CAT, HAD, SGRQ, Diabetes, muscular, hypertension, AtrialFib, IHD"
+regression_target,"SGRQ total score (0-100, higher = worse QoL)"
+regression_predictors,"AGE, gender, PackHistory, smoking, MWT1Best, FEV1, FEV1PRED, FVC, FVCPRED, CAT, HAD, Diabetes, muscular, hypertension, AtrialFib, IHD"
+psm_exposure,severe or very severe COPDSEVERITY vs mild or moderate
+psm_outcome,SGRQ
+psm_confounders,"AGE, gender, PackHistory, smoking, Diabetes, muscular, hypertension, AtrialFib, IHD"
