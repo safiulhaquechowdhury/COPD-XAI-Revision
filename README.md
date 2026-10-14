@@ -1,7 +1,7 @@
 # COPD-XAI-Revision
 
 Code, predictor definitions, cross-validation splits and outputs for the manuscript
-*Leakage-Audited Explainable Machine Learning for COPD Severity and Quality-of-Life Assessment with Propensity-Score Adjusted Analysis: An Exploratory Study* (Discover Computing, manuscript 2026-3956).
+*Leakage Audited Explainable Machine Learning for COPD Severity and Quality of Life Assessment with Propensity Score Adjusted Analysis* (Discover Computing, manuscript 2026-3956).
 
 ## Data
 `dataset.csv` is the public COPD student dataset (101 patients) from Kaggle:
